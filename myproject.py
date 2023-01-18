@@ -12,11 +12,5 @@ if num%10==0:
 else:
     print("number is not multiple of 10")
 
+print("hi "*10)
 
-
-mark=50
-if (mark<=100)&(mark>=90):
-    print("a")
-else:
-    print("b")
-    
