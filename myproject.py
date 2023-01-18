@@ -14,7 +14,9 @@ else:
 
 
 
-
-if (num<=20)&(num%10==0):
-    print("number")
-
+mark=50
+if (mark<=100)&(mark>=90):
+    print("a")
+else:
+    print("b")
+    
