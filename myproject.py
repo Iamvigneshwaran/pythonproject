@@ -12,3 +12,9 @@ if num%10==0:
 else:
     print("number is not multiple of 10")
 
+
+
+
+if (num<=20)&(num%10==0):
+    print("number")
+
