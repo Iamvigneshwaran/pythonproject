@@ -13,7 +13,7 @@ else:
     print("number is not multiple of 10")
 
 print("hi "*10)
-"""
+-------------------------------------------------------------------------------------------------------------------
 
 print("-" * 50)
 year = int(input("enter the year :"))
@@ -31,3 +31,18 @@ if year != 0:
         print("not leap year")
 else:
     print("...please Enter valid year!.. ")
+"""
+
+money = int(input("enter how much money do you have :"))
+
+if  money>=200 :
+    print("you can buy chicken rice")
+elif money<200 and money>=100 :
+    print("you can buy rice and egg")
+elif money<100 and money>=50 :
+    print("CURD RICE")
+else:
+    print("LOW MONEY SO YOU CAN BUY ONLY BISCUTES")
+
+
+
