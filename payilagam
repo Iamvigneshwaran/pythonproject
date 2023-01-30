@@ -1,6 +1,11 @@
 num = int(input("Enter the number:"))
 
 if num%2 == 0 :
+    print("-"*40)
     print("Even"+str(num))
+    print("-" * 40)
+
 else:
+    print("-"*40)
     print("odd"+str(num))
+    print("-"*40)
