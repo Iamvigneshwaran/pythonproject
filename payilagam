@@ -1,11 +1,8 @@
-num = int(input("Enter the number:"))
 
-if num%2 == 0 :
-    print("-"*40)
-    print("Even"+str(num))
-    print("-" * 40)
+word = input("Enter the word :")
 
+word2 = word[::-1]
+if word == word2:
+    print("palindrome.....")
 else:
-    print("-"*40)
-    print("odd"+str(num))
-    print("-"*40)
+    print("not plindrome....")
